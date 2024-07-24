@@ -40,10 +40,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4     &kp F5  &kp F6                       &kp F7   &kp F8           &kp F9          &kp F10          &kp F11   &kp F12
-&kp TAB    &none     &kp UP    &none      &none   &none                        &none    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &none     &none
-&kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none                        &none    &kp INS          &kp PAGE_UP     &none            &none     &none
-&kp LSHFT  &none     &none     &none      &none   &none   &kp HOME    &kp END  &none    &kp DELETE       &kp PAGE_DOWN   &none            &kp BSLH  &kp RIGHT_SHIFT
+&kp F1     &kp F2    &kp F3    &kp F4     &kp F5  &kp F6                       &kp F7   &kp F8           &kp F9          &kp F10          &kp F11    &kp F12
+&kp TAB    &none     &kp UP    &none      &none   &none                        &none    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp EQUAL  &none
+&kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none                        &none    &kp INS          &kp PAGE_UP     &none            &none      &none
+&kp LSHFT  &none     &none     &none      &none   &none   &kp HOME    &kp END  &none    &kp DELETE       &kp PAGE_DOWN   &none            &kp BSLH   &kp RIGHT_SHIFT
                                &kp LALT   &trans  &to 0   &trans      &trans   &kp DEL  &to 2            &to 4
             >;
         };
@@ -51,7 +51,7 @@
         numpad_layer {
             bindings = <
 &kp ESC    &none     &none     &none      &none   &none                       &none     &none            &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &none
-&kp TAB    &none     &kp UP    &none      &none   &none                       &none     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &none
+&kp TAB    &none     &kp UP    &none      &none   &none                       &none     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp EQUAL
 &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none                       &none     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &none
 &kp LSHFT  &none     &none     &none      &none   &none  &none        &none   &none     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT       &none
                                &kp LALT   &trans  &to 0  &kp SPACE    &trans  &kp BSPC  &to 3            &kp KP_NUMBER_0
